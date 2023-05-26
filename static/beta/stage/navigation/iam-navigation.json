@@ -66,6 +66,21 @@
       ]
     },
     {
+      "appId": "userManagement",
+      "title": "User Management",
+      "expandable": true,
+      "routes": [
+        {
+          "id": "userlist",
+          "appId": "user",
+          "title": "Users",
+          "href": "/iam/user-management/users",
+          "product": "User Management",
+          "description": "Manage users of your organization"
+        }
+      ]
+    },
+    {
       "id": "learningResources",
       "appId": "learningResources",
       "title": "Learning Resources",

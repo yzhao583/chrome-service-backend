@@ -917,6 +917,20 @@
             }
         ]
     },
+    "userManagement": {
+        "manifestLocation": "/apps/user-management/fed-mods.json",
+        "modules": [
+            {
+                "id": "user-management-users",
+                "module": "./RootApp",
+                "routes": [
+                    {
+                        "pathname": "/iam/user-management/users"
+                    }
+                ]
+            }
+        ]
+    },
     "hybridCommittedSpend": {
         "manifestLocation": "/apps/hybrid-committed-spend/fed-mods.json",
         "modules": [
@@ -965,11 +979,6 @@
     },
     "seatsAdmin": {
         "manifestLocation": "/apps/seats-admin/fed-mods.json",
-        "config": {
-            "ssoScopes": [
-                "api.iam.access"
-            ]
-        },
         "modules": [
             {
                 "id": "seats-admin",
